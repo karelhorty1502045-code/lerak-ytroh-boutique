@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f00078">
+<meta name="description" content="Lerak Ytroh Personal Shopper — beauté, mode et accessoires sélectionnés en Chine et en France, livrés au Gabon.">
+<title>Lerak Ytroh | Beauty, Fashion & Personal Shopper</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap');
+:root{--pink:#F00078;--pink2:#FF4D9D;--soft:#FFF0F5;--ink:#241923;--muted:#75636E;--line:#F2DCE5;--cream:#FFF9F6;--serif:'Playfair Display',Georgia,serif;--sans:'DM Sans',Arial,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;color:var(--ink);background:#fffdfa;font-family:var(--sans)}a{color:inherit;text-decoration:none}button,input,textarea,select{font:inherit}.announcement{height:30px;background:#FFF0F4;color:#8D405E;display:flex;justify-content:space-between;align-items:center;padding:0 4%;font-size:9px}.announcement span:first-child{font-weight:800;letter-spacing:1.3px}.announcement a{font-weight:800;color:var(--pink)}.header{height:76px;padding:0 4%;display:flex;align-items:center;justify-content:space-between;gap:20px;background:#fff;position:sticky;top:0;z-index:20;box-shadow:0 3px 15px #4a18300a}.brand{display:flex;align-items:center;gap:10px;min-width:180px}.monogram{font:italic 26px var(--serif);color:var(--pink);border-right:1px solid #f3b3ce;padding-right:10px}.brand b{display:block;font:700 12px var(--serif);letter-spacing:1.4px}.brand small{display:block;font-size:7px;letter-spacing:2px;color:#997C89;margin-top:3px}.header nav{display:flex;gap:27px}.header nav a{font-size:10px;font-weight:700}.header nav a:hover{color:var(--pink)}.head-actions{display:flex;align-items:center;gap:13px}.search{height:34px;border:1px solid var(--line);border-radius:20px;display:flex;align-items:center;padding:0 10px;gap:6px}.search span{font-size:20px;color:var(--pink)}.search input{width:125px;border:0;outline:0;font-size:9px}.cart-trigger{border:0;background:none;font-size:21px;cursor:pointer;position:relative}.cart-trigger i{position:absolute;top:-4px;right:-8px;border-radius:50%;background:var(--pink);color:white;font-style:normal;font-size:8px;width:15px;height:15px;display:grid;place-items:center}.mobile-menu{display:none;border:0;background:none;font-size:22px}
+.hero{height:390px;position:relative;overflow:hidden;background:#f9d4df}.hero-photo{position:absolute;inset:0;background:linear-gradient(90deg,#fff5f3f2 0%,#fff1f0d9 32%,#ffe5eb26 58%,transparent 100%),url('https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1800&q=90') center 34%/cover}.hero-copy{position:relative;z-index:1;padding:42px 6%;max-width:540px}.kicker,.eyebrow{font-size:8px;letter-spacing:2px;font-weight:800;color:var(--pink)}.hero h1{font:600 clamp(42px,5.5vw,68px)/.98 var(--serif);letter-spacing:-2px;margin:12px 0}.hero h1 em,.section-title h2 em,.contact h2 em{color:var(--pink);font-weight:500}.hero-copy>p{font-size:12px;line-height:1.7;max-width:360px;color:#604d57}.pink-button{display:inline-flex;align-items:center;justify-content:center;gap:15px;border:0;border-radius:30px;background:var(--pink);color:#fff;padding:12px 20px;font-size:10px;font-weight:800;cursor:pointer;box-shadow:0 5px 16px #f0007830;transition:.2s}.pink-button:hover{background:#c90065;transform:translateY(-2px)}.trust{display:flex;gap:23px;margin-top:23px;padding:10px 15px;background:#ffffffbf;border-radius:13px;width:max-content}.trust>div{display:flex;gap:8px;align-items:center}.trust>div>b{font-size:19px;color:var(--pink)}.trust strong,.trust small{display:block}.trust strong{font-size:10px;color:var(--pink)}.trust small{font-size:8px;color:#554650}.hero-card{position:absolute;right:4%;bottom:17px;width:225px;background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 8px 30px #54233a20}.hero-card-img{height:85px;background:url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=600&q=85') center/cover}.hero-card>div:last-child{padding:10px 14px 13px}.hero-card b{font:600 16px var(--serif)}.hero-card p{font-size:9px;color:var(--muted);margin:3px 0 9px}.hero-card a{display:inline-block;background:var(--pink);color:#fff;border-radius:20px;padding:8px 13px;font-size:8px;font-weight:800}
+.categories{display:grid;grid-template-columns:repeat(10,1fr);gap:10px;padding:17px 3% 20px;background:#fff}.categories button{border:0;background:none;cursor:pointer;text-align:center;min-width:0}.categories img{width:min(68px,7vw);aspect-ratio:1;object-fit:cover;border-radius:50%;display:block;margin:0 auto 6px;border:3px solid #fff0f5;transition:.2s}.categories button:hover img{transform:translateY(-4px);border-color:#ff9dc5}.categories b{font-size:9px;white-space:nowrap}
+.promos{display:grid;grid-template-columns:1.05fr 1fr 1fr;gap:7px;padding:0 1.7% 18px}.promo{height:112px;border-radius:9px;overflow:hidden;position:relative;background-size:cover;background-position:center;display:flex;align-items:center;padding:16px}.promo:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#fff3f1f0 0%,#fff0f1b0 55%,transparent)}.promo>div{position:relative;z-index:1}.promo small{font-size:8px;font-weight:800;color:var(--pink);letter-spacing:.7px}.promo h3{font:600 20px/1.1 var(--serif);margin:4px 0}.promo p{font-size:9px;margin:0 0 8px;color:#554650}.promo a{display:inline-block;padding:7px 14px;border-radius:18px;background:#301923;color:white;font-size:8px;font-weight:700}.promo-delivery{background-image:url('https://images.unsplash.com/photo-1607082349566-187342175e2f?auto=format&fit=crop&w=900&q=85')}.promo-delivery:before{background:linear-gradient(90deg,#ed1685f2,#f00078aa 60%,transparent)}.promo-delivery small,.promo-delivery h3,.promo-delivery p{color:#fff}.promo-delivery a{background:#311624}.promo-service{background-image:url('https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=900&q=85')}.promo-service:before{background:linear-gradient(90deg,#ffdce9f5,#ffdce9a0 60%,transparent)}
+.featured{padding:0 2.5% 22px}.section-title{display:flex;align-items:center;justify-content:space-between;margin:0 0 15px}.section-title h2{font:500 clamp(28px,3vw,37px) var(--serif);margin:0}.section-title p{font-size:10px;color:var(--muted);margin:3px 0}.all-link{border:1px solid var(--pink);color:var(--pink);border-radius:22px;padding:9px 15px;font-size:9px;font-weight:800}.filter-row{display:flex;justify-content:space-between;align-items:center;margin:0 0 10px}.filters{display:flex;gap:6px;flex-wrap:wrap}.filter{border:1px solid var(--line);background:#fff;border-radius:20px;padding:6px 12px;font-size:8px;cursor:pointer}.filter.active,.filter:hover{background:var(--pink);color:#fff;border-color:var(--pink)}#sort{border:1px solid var(--line);border-radius:15px;padding:6px 10px;font-size:8px;background:white}.product-grid{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:9px}.product{min-width:0;border:1px solid #f2e7eb;border-radius:10px;padding:5px;background:white;box-shadow:0 2px 10px #40162908}.product[hidden]{display:none}.product-img{height:125px;position:relative;overflow:hidden;border-radius:7px;background:#f9e9ef}.product-img img{width:100%;height:100%;object-fit:cover}.product-img>span{position:absolute;top:6px;left:6px;background:#ffffffde;padding:4px 6px;border-radius:10px;font-size:6px;font-weight:800;color:var(--pink)}.heart{position:absolute;top:5px;right:5px;width:22px;height:22px;border:0;border-radius:50%;background:#fff;color:#78636e;font-size:14px;cursor:pointer}.heart.selected{color:var(--pink)}.product h3{font:600 11px var(--serif);margin:7px 2px 2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.product p{font-size:8px;color:#8b7b83;margin:0 2px 5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.product>strong{display:block;font-size:9px;color:var(--pink);margin:0 2px 7px}.add{width:100%;border:0;border-radius:6px;background:var(--pink);color:#fff;padding:7px 3px;font-size:8px;font-weight:800;cursor:pointer}.add:hover{background:#bf005e}.catalog-note{font-size:8px;color:#907e87;margin:10px 2px 0}
+.brands{margin:0 2.5% 20px;padding:13px 16px;background:#fff2ed;border-radius:9px;display:flex;align-items:center;gap:25px}.brands h3{font:600 16px var(--serif);margin:0}.brands p{font-size:8px;color:var(--muted);margin:3px 0 0;max-width:200px}.brand-names{flex:1;display:flex;align-items:center;justify-content:space-between;gap:13px;flex-wrap:wrap}.brand-names b{font:700 clamp(11px,1.5vw,20px) var(--serif);letter-spacing:1px;color:#1f171b}.brand-names b:nth-child(6){font-family:var(--sans);font-style:italic;color:#ed174d}.brand-names b:last-child{font:700 8px var(--sans);letter-spacing:2px}
+.contact{padding:55px 7%;background:#fff8fb;display:grid;grid-template-columns:1fr 1fr;gap:8%;align-items:center}.contact h2{font:500 38px/1.1 var(--serif)}.contact p{font-size:11px;line-height:1.8;color:var(--muted)}.contact form{padding:22px;background:#fff;border:1px solid var(--line);display:grid;gap:10px}.contact form h3{font:600 22px var(--serif);margin:0}.contact input,.contact textarea{border:1px solid var(--line);padding:11px;font-size:10px;outline:0}.contact input:focus,.contact textarea:focus{border-color:var(--pink)}footer{background:#291923;color:#fff;text-align:center;padding:28px 15px}footer>b{font:600 12px var(--serif);letter-spacing:2px}footer p{font:italic 16px var(--serif);color:#ff9fc7}footer small{font-size:8px;color:#d4c0ca}
+.overlay{position:fixed;inset:0;background:#1a0c15a6;z-index:40;opacity:0;pointer-events:none;transition:.2s}.overlay.open{opacity:1;pointer-events:auto}.cart-panel{position:fixed;right:0;top:0;bottom:0;width:min(390px,92vw);background:white;z-index:41;padding:22px;transform:translateX(105%);transition:.25s;display:flex;flex-direction:column}.cart-panel.open{transform:translateX(0)}.cart-head{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding-bottom:12px}.cart-head h3{font:600 23px var(--serif);margin:0}.cart-head small{font:10px var(--sans);color:var(--muted)}.cart-head button{border:0;background:none;font-size:26px;cursor:pointer}.cart-items{flex:1;overflow:auto;padding:12px 0}.cart-items>p{font-size:11px;color:var(--muted)}.cart-line{padding:12px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:1fr auto;gap:8px;font-size:10px}.cart-line small{display:block;color:var(--muted);font-size:8px;margin-top:4px}.qty-controls{display:flex;align-items:center;gap:8px;margin-top:7px}.qty-controls button{width:22px;height:22px;border:1px solid var(--line);background:#fff;cursor:pointer}.remove{border:0!important;color:var(--pink);font-size:8px;width:auto!important}.cart-total{display:flex;justify-content:space-between;border-top:1px solid var(--line);padding:14px 0;font-size:12px}.cart-total b{color:var(--pink)}.delivery-note{font-size:8px;color:var(--muted)}.checkout{width:100%}.checkout:disabled{opacity:.45;cursor:not-allowed}
+@media(max-width:1050px){.product-grid{grid-template-columns:repeat(4,1fr)}.product-img{height:175px}.categories{grid-template-columns:repeat(5,1fr);row-gap:14px}.categories img{width:65px}}
+@media(max-width:700px){.announcement{justify-content:center}.announcement span:nth-child(2){display:none}.header{height:65px;padding:0 4%;gap:9px}.mobile-menu{display:block}.header nav{display:none;position:absolute;top:65px;left:0;right:0;background:#fff;padding:12px 6%;box-shadow:0 8px 20px #0001;flex-direction:column;gap:0}.header nav.open{display:flex}.header nav a{padding:12px 0;border-bottom:1px solid var(--line)}.brand{min-width:0}.brand b{font-size:10px}.search input{width:75px}.hero{height:420px}.hero-photo{background-position:58% center}.hero-copy{padding:35px 6%;max-width:85%}.hero h1{font-size:49px}.hero-card{width:155px;right:3%;bottom:12px}.hero-card-img{height:55px}.hero-card>div:last-child{padding:8px}.hero-card b{font-size:13px}.trust{gap:10px;padding:8px}.trust small{font-size:7px}.categories{grid-template-columns:repeat(5,1fr);padding:15px 2%;gap:12px 5px}.categories img{width:55px}.categories b{font-size:8px}.promos{grid-template-columns:1fr;padding:0 3% 15px}.promo{height:100px}.section-title{align-items:flex-start}.section-title h2{font-size:27px}.all-link{font-size:8px;padding:8px}.filter-row{align-items:flex-start;gap:8px}.filters{overflow-x:auto;flex-wrap:nowrap;max-width:82%;padding-bottom:5px}.filter{white-space:nowrap}.product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.product-img{height:180px}.product h3{font-size:12px}.product>strong{font-size:10px}.add{font-size:9px;padding:9px 3px}.brands{display:block}.brand-names{margin-top:14px;justify-content:flex-start}.brand-names b{font-size:15px}.contact{grid-template-columns:1fr;padding:38px 6%;gap:18px}.contact h2{font-size:32px}}
+\n</style><script>
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const menu=$("#mobileMenu"),nav=$("#mainNav");
+menu.addEventListener("click",()=>nav.classList.toggle("open"));
+nav.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>nav.classList.remove("open")));
+const products=$$(".product"),filterButtons=$$(".filter");
+let active="all",cart=[];
+const format=n=>new Intl.NumberFormat("fr-FR").format(n)+" FCFA";
+function filterProducts(){
+ const term=$("#search").value.trim().toLowerCase();
+ let count=0;
+ products.forEach(p=>{
+  const cat=active==="all"||p.dataset.category===active;
+  const match=(p.dataset.name+" "+p.dataset.search).toLowerCase().includes(term);
+  p.hidden=!(cat&&match);if(!p.hidden)count++;
+ });
+}
+function setFilter(value){
+ active=value;
+ filterButtons.forEach(b=>b.classList.toggle("active",b.dataset.filter===value));
+ filterProducts();
+}
+filterButtons.forEach(b=>b.addEventListener("click",()=>setFilter(b.dataset.filter)));
+$$(".categories button").forEach(b=>b.addEventListener("click",()=>{
+ const map={makeup:"beauty",skincare:"beauty",perfume:"beauty",clothes:"fashion",shoes:"fashion",wigs:"hair",bags:"fashion",accessories:"accessories",watches:"accessories",hair:"hair"};
+ setFilter(map[b.dataset.category]||"all");$("#products").scrollIntoView({behavior:"smooth"});
+}));
+$("#search").addEventListener("input",filterProducts);
+$("#sort").addEventListener("change",e=>{
+ const grid=$("#productGrid");
+ const sorted=[...products].sort((a,b)=>e.target.value==="price-up"?+a.dataset.price- +b.dataset.price:e.target.value==="price-down"?+b.dataset.price- +a.dataset.price:0);
+ sorted.forEach(p=>grid.appendChild(p));
+});
+$$(".heart").forEach(b=>b.addEventListener("click",()=>{b.classList.toggle("selected");b.textContent=b.classList.contains("selected")?"♥":"♡"}));
+const panel=$("#cartPanel"),overlay=$("#overlay");
+function openCart(){panel.classList.add("open");overlay.classList.add("open")}
+function closeCart(){panel.classList.remove("open");overlay.classList.remove("open")}
+$("#showCart").addEventListener("click",openCart);$("#closeCart").addEventListener("click",closeCart);overlay.addEventListener("click",closeCart);
+function renderCart(){
+ const qty=cart.reduce((s,x)=>s+x.qty,0),total=cart.reduce((s,x)=>s+x.price*x.qty,0);
+ $("#cartCount").textContent=qty;$("#cartQty").textContent="("+qty+")";$("#subtotal").textContent=format(total);$("#checkout").disabled=!cart.length;
+ const box=$("#cartItems");box.innerHTML="";
+ if(!cart.length){box.innerHTML="<p>Votre panier est vide.</p>";return}
+ cart.forEach((item,index)=>{
+  const line=document.createElement("div");line.className="cart-line";
+  const info=document.createElement("div");
+  const title=document.createElement("b");title.textContent=item.name;
+  const opt=document.createElement("small");opt.textContent=item.option+" · "+format(item.price);
+  const controls=document.createElement("div");controls.className="qty-controls";
+  const minus=document.createElement("button");minus.textContent="−";minus.addEventListener("click",()=>{item.qty--;if(item.qty<=0)cart.splice(index,1);renderCart()});
+  const amount=document.createElement("span");amount.textContent=item.qty;
+  const plus=document.createElement("button");plus.textContent="+";plus.addEventListener("click",()=>{if(item.qty<20)item.qty++;renderCart()});
+  const remove=document.createElement("button");remove.className="remove";remove.textContent="Retirer";remove.addEventListener("click",()=>{cart.splice(index,1);renderCart()});
+  controls.append(minus,amount,plus,remove);info.append(title,opt,controls);
+  const sum=document.createElement("b");sum.textContent=format(item.price*item.qty);
+  line.append(info,sum);box.append(line);
+ });
+}
+$$(".add").forEach(btn=>btn.addEventListener("click",()=>{
+ const card=btn.closest(".product"),options=btn.dataset.options.split("|"),label=options[0].split(":")[0];
+ const selected=prompt("Choisissez "+label+" :\n"+options.slice(1).map((x,i)=>(i+1)+". "+x).join("\n"),options[0].split(":")[1]);
+ if(selected===null)return;
+ const value=selected.trim();
+ if(!options.slice(1).includes(value)){alert("Option non reconnue. Veuillez choisir exactement une option proposée.");return}
+ const old=cart.find(x=>x.name===btn.dataset.name&&x.option===label+": "+value);
+ if(old)old.qty=Math.min(20,old.qty+1);else cart.push({name:btn.dataset.name,price:+btn.dataset.price,qty:1,option:label+": "+value});
+ renderCart();openCart();
+}));
+$("#checkout").addEventListener("click",()=>{
+ if(!cart.length)return;
+ const lines=cart.map(x=>"- "+x.name+" ("+x.option+") x"+x.qty+" : "+format(x.price*x.qty)).join("\n");
+ const total=cart.reduce((s,x)=>s+x.price*x.qty,0);
+ const msg="Bonjour Lerak Ytroh, je souhaite commander :\n"+lines+"\nSous-total : "+format(total)+"\nLivraison : à confirmer selon ma zone. Merci de confirmer la disponibilité et les modalités.";
+ window.open("https://wa.me/24176314177?text="+encodeURIComponent(msg),"_blank");
+});
+$("#contactForm").addEventListener("submit",e=>{
+ e.preventDefault();if(!e.currentTarget.reportValidity())return;
+ const msg="Bonjour Lerak Ytroh.\nNom : "+$("#clientName").value+"\nContact : "+$("#clientContact").value+"\nDemande : "+$("#clientMessage").value;
+ window.open("https://wa.me/24176314177?text="+encodeURIComponent(msg),"_blank");
+});
+$("#year").textContent=new Date().getFullYear();
+</script>
+</head>
+<body>
+<div class="announcement"><span>VOS ENVIES, NOTRE SÉLECTION</span><span>Achats en Chine & en France · Livraison au Gabon</span><a href="https://wa.me/24176314177">WhatsApp 076 31 41 77</a></div>
+<header class="header">
+ <a class="brand" href="#home"><span class="monogram">LY</span><span><b>LERAK YTROH</b><small>PERSONAL SHOPPER</small></span></a>
+ <button class="mobile-menu" id="mobileMenu" aria-label="Ouvrir le menu">☰</button>
+ <nav id="mainNav"><a href="#home">Accueil</a><a href="#categories">Catégories</a><a href="#products">Boutique</a><a href="#services">Nos services</a><a href="#contact">Contact</a></nav>
+ <div class="head-actions"><label class="search"><span>⌕</span><input id="search" placeholder="Rechercher..." aria-label="Rechercher"></label><button id="showCart" class="cart-trigger" aria-label="Ouvrir le panier">♧ <i id="cartCount">0</i></button></div>
+</header>
+<main>
+<section class="hero" id="home">
+ <div class="hero-photo"></div><div class="hero-copy"><span class="kicker">BEAUTÉ · MODE · LIFESTYLE</span><h1>Le shopping<br>qui vous <em>ressemble.</em></h1><p>Vos produits préférés, directement de Chine et de France, livrés au Gabon.</p><a class="pink-button" href="#products">Découvrir la boutique <b>→</b></a>
+ <div class="trust"><div><b>♡</b><span><strong>100%</strong><small>Produits sélectionnés</small></span></div><div><b>♧</b><span><strong>Livraison</strong><small>au Gabon</small></span></div><div><b>◎</b><span><strong>Service</strong><small>personnalisé</small></span></div></div></div>
+ <aside class="hero-card"><div class="hero-card-img"></div><div><b>Beauté de luxe</b><p>Maquillage · Soins · Parfums</p><a href="#categories">Voir la collection →</a></div></aside>
+</section>
+<section class="categories" id="categories">
+ <button data-category="makeup"><img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=220&q=80"><b>Maquillage</b></button>
+ <button data-category="skincare"><img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=220&q=80"><b>Soins visage</b></button>
+ <button data-category="perfume"><img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=220&q=80"><b>Parfums</b></button>
+ <button data-category="clothes"><img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=220&q=80"><b>Vêtements</b></button>
+ <button data-category="shoes"><img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=220&q=80"><b>Chaussures</b></button>
+ <button data-category="wigs"><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=220&q=80"><b>Perruques</b></button>
+ <button data-category="bags"><img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=220&q=80"><b>Sacs</b></button>
+ <button data-category="accessories"><img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=220&q=80"><b>Accessoires</b></button>
+ <button data-category="watches"><img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=220&q=80"><b>Montres & bijoux</b></button>
+ <button data-category="hair"><img src="https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=220&q=80"><b>Produits capillaires</b></button>
+</section>
+<section class="promos" id="services">
+ <article class="promo promo-travel"><div><small>ACHATS INTERNATIONAUX</small><h3>Chine & France</h3><p>Vos marques préférées, sans limites.</p><a href="#contact">En savoir plus →</a></div></article>
+ <article class="promo promo-delivery"><div><small>LIVRAISON AU GABON</small><h3>Rapide et sécurisée.</h3><p>Un accompagnement à chaque étape.</p><a href="#contact">Nos modalités →</a></div></article>
+ <article class="promo promo-service"><div><small>SERVICE PERSONNALISÉ</small><h3>Un accompagnement de A à Z.</h3><p>Votre recherche, notre priorité.</p><a href="https://wa.me/24176314177">Discuter sur WhatsApp →</a></div></article>
+</section>
+<section class="featured" id="products">
+ <div class="section-title"><div><h2>Nos <em>produits</em> phares</h2><p>Une sélection tendance pour sublimer votre style et votre beauté.</p></div><a href="#catalogue" class="all-link">Voir toute la boutique →</a></div>
+ <div class="filter-row" id="catalogue"><div class="filters"><button class="filter active" data-filter="all">Tout</button><button class="filter" data-filter="beauty">Beauté</button><button class="filter" data-filter="fashion">Mode</button><button class="filter" data-filter="hair">Cheveux</button><button class="filter" data-filter="accessories">Accessoires</button></div><select id="sort"><option value="featured">Sélection</option><option value="price-up">Prix croissant</option><option value="price-down">Prix décroissant</option></select></div>
+ <div class="product-grid" id="productGrid">
+  <article class="product" data-category="beauty" data-price="48000" data-name="Parfum YSL Libre" data-search="parfum ysl libre eau de parfum fragrance"><div class="product-img"><img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=600&q=85" alt="Parfum"><span>PARFUM</span><button class="heart">♡</button></div><h3>Parfum YSL Libre</h3><p>Eau de parfum 90 ml</p><strong>48 000 FCFA</strong><button class="add" data-name="Parfum YSL Libre" data-price="48000" data-options="Format:90 ml|50 ml|90 ml">Ajouter au panier</button></article>
+  <article class="product" data-category="beauty" data-price="35000" data-name="Routine skincare Glow" data-search="routine skincare soins visage serum"><div class="product-img"><img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=600&q=85" alt="Routine de soin"><span>SKINCARE</span><button class="heart">♡</button></div><h3>Routine skincare Glow</h3><p>4 produits</p><strong>35 000 FCFA</strong><button class="add" data-name="Routine skincare Glow" data-price="35000" data-options="Type:Routine complète|Peau sèche|Peau mixte|Peau grasse">Ajouter au panier</button></article>
+  <article class="product" data-category="fashion" data-price="42000" data-name="Sac à main tendance" data-search="sac à main handbag sac rose"><div class="product-img"><img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=85" alt="Sac à main"><span>SACS</span><button class="heart">♡</button></div><h3>Sac à main tendance</h3><p>Plusieurs coloris</p><strong>42 000 FCFA</strong><button class="add" data-name="Sac à main tendance" data-price="42000" data-options="Couleur:Rose|Rose|Noir|Beige|Marron">Ajouter au panier</button></article>
+  <article class="product" data-category="hair" data-price="95000" data-name="Perruque lace HD" data-search="perruque lace hd cheveux humain wig"><div class="product-img"><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=600&q=85" alt="Perruque"><span>HAIR</span><button class="heart">♡</button></div><h3>Perruque lace HD</h3><p>Cheveux humains</p><strong>95 000 FCFA</strong><button class="add" data-name="Perruque lace HD" data-price="95000" data-options="Longueur:18 pouces|12 pouces|14 pouces|16 pouces|18 pouces|20 pouces|22 pouces">Ajouter au panier</button></article>
+  <article class="product" data-category="fashion" data-price="38000" data-name="Baskets tendance" data-search="baskets chaussures sneakers nike shoes"><div class="product-img"><img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=600&q=85" alt="Chaussures"><span>SHOES</span><button class="heart">♡</button></div><h3>Baskets tendance</h3><p>Plusieurs modèles</p><strong>38 000 FCFA</strong><button class="add" data-name="Baskets tendance" data-price="38000" data-options="Pointure:38|36|37|38|39|40|41">Ajouter au panier</button></article>
+  <article class="product" data-category="beauty" data-price="52000" data-name="Kit maquillage complet" data-search="kit maquillage palette pinceaux makeup"><div class="product-img"><img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=600&q=85" alt="Kit maquillage"><span>MAKEUP</span><button class="heart">♡</button></div><h3>Kit maquillage complet</h3><p>15 pièces</p><strong>52 000 FCFA</strong><button class="add" data-name="Kit maquillage complet" data-price="52000" data-options="Teinte:Medium|Clair|Medium|Foncé">Ajouter au panier</button></article>
+  <article class="product" data-category="accessories" data-price="45000" data-name="Montre femme luxe" data-search="montre femme bracelet bijoux watch"><div class="product-img"><img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=600&q=85" alt="Montre"><span>BIJOUX</span><button class="heart">♡</button></div><h3>Montre femme luxe</h3><p>Différents modèles</p><strong>45 000 FCFA</strong><button class="add" data-name="Montre femme luxe" data-price="45000" data-options="Couleur:Or rose|Or rose|Or|Argent">Ajouter au panier</button></article>
+  <article class="product" data-category="accessories" data-price="28000" data-name="Lunettes de soleil" data-search="lunettes soleil sunglasses accessoires"><div class="product-img"><img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=600&q=85" alt="Lunettes"><span>ACCESSOIRES</span><button class="heart">♡</button></div><h3>Lunettes de soleil</h3><p>Plusieurs marques</p><strong>28 000 FCFA</strong><button class="add" data-name="Lunettes de soleil" data-price="28000" data-options="Couleur:Noir|Noir|Marron|Rose">Ajouter au panier</button></article>
+ </div><p class="catalog-note">Prix indicatifs en FCFA. Les références, disponibilités et variantes sont confirmées avant validation de la commande.</p>
+</section>
+<section class="brands"><div><h3>Nos marques</h3><p>Vos grandes marques préférées, disponibles sur commande.</p></div><div class="brand-names"><b>DIOR</b><b>CHANEL</b><b>YSL</b><b>GUCCI</b><b>ZARA</b><b>H&M</b><b>NIKE</b><b>adidas</b><b>MAC</b><b>FENTY BEAUTY</b></div></section>
+<section class="contact" id="contact"><div><span class="eyebrow">UNE QUESTION ?</span><h2>Votre prochaine envie<br><em>commence ici.</em></h2><p>Besoin d'un produit précis, d'un conseil ou d'une recherche personnalisée ? Écrivez-nous.</p><p><b>WhatsApp :</b> 076 31 41 77<br><b>Libreville, Gabon</b></p></div><form id="contactForm"><h3>Contactez-nous</h3><input id="clientName" required placeholder="Votre nom"><input id="clientContact" required placeholder="Votre numéro ou e-mail"><textarea id="clientMessage" required placeholder="Votre demande" rows="4"></textarea><button class="pink-button">Envoyer sur WhatsApp →</button></form></section>
+</main>
+<footer><b>LERAK YTROH · PERSONAL SHOPPER</b><p>Vous satisfaire, notre priorité.</p><small>© <span id="year"></span> Lerak Ytroh. Tous droits réservés.</small></footer>
+<div class="overlay" id="overlay"></div><aside class="cart-panel" id="cartPanel"><div class="cart-head"><h3>Mon panier <small id="cartQty">(0)</small></h3><button id="closeCart">×</button></div><div id="cartItems" class="cart-items"><p>Votre panier est vide.</p></div><div class="cart-total"><span>Sous-total</span><b id="subtotal">0 FCFA</b></div><p class="delivery-note">Livraison : frais communiqués après confirmation de votre zone.</p><button id="checkout" class="pink-button checkout" disabled>Commander sur WhatsApp →</button></aside>
+</body></htmlE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f00078">
+<meta name="description" content="Lerak Ytroh Personal Shopper — beauté, mode et accessoires sélectionnés en Chine et en France, livrés au Gabon.">
+<title>Lerak Ytroh | Beauty, Fashion & Personal Shopper</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap');
+:root{--pink:#F00078;--pink2:#FF4D9D;--soft:#FFF0F5;--ink:#241923;--muted:#75636E;--line:#F2DCE5;--cream:#FFF9F6;--serif:'Playfair Display',Georgia,serif;--sans:'DM Sans',Arial,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;color:var(--ink);background:#fffdfa;font-family:var(--sans)}a{color:inherit;text-decoration:none}button,input,textarea,select{font:inherit}.announcement{height:30px;background:#FFF0F4;color:#8D405E;display:flex;justify-content:space-between;align-items:center;padding:0 4%;font-size:9px}.announcement span:first-child{font-weight:800;letter-spacing:1.3px}.announcement a{font-weight:800;color:var(--pink)}.header{height:76px;padding:0 4%;display:flex;align-items:center;justify-content:space-between;gap:20px;background:#fff;position:sticky;top:0;z-index:20;box-shadow:0 3px 15px #4a18300a}.brand{display:flex;align-items:center;gap:10px;min-width:180px}.monogram{font:italic 26px var(--serif);color:var(--pink);border-right:1px solid #f3b3ce;padding-right:10px}.brand b{display:block;font:700 12px var(--serif);letter-spacing:1.4px}.brand small{display:block;font-size:7px;letter-spacing:2px;color:#997C89;margin-top:3px}.header nav{display:flex;gap:27px}.header nav a{font-size:10px;font-weight:700}.header nav a:hover{color:var(--pink)}.head-actions{display:flex;align-items:center;gap:13px}.search{height:34px;border:1px solid var(--line);border-radius:20px;display:flex;align-items:center;padding:0 10px;gap:6px}.search span{font-size:20px;color:var(--pink)}.search input{width:125px;border:0;outline:0;font-size:9px}.cart-trigger{border:0;background:none;font-size:21px;cursor:pointer;position:relative}.cart-trigger i{position:absolute;top:-4px;right:-8px;border-radius:50%;background:var(--pink);color:white;font-style:normal;font-size:8px;width:15px;height:15px;display:grid;place-items:center}.mobile-menu{display:none;border:0;background:none;font-size:22px}
+.hero{height:390px;position:relative;overflow:hidden;background:#f9d4df}.hero-photo{position:absolute;inset:0;background:linear-gradient(90deg,#fff5f3f2 0%,#fff1f0d9 32%,#ffe5eb26 58%,transparent 100%),url('https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1800&q=90') center 34%/cover}.hero-copy{position:relative;z-index:1;padding:42px 6%;max-width:540px}.kicker,.eyebrow{font-size:8px;letter-spacing:2px;font-weight:800;color:var(--pink)}.hero h1{font:600 clamp(42px,5.5vw,68px)/.98 var(--serif);letter-spacing:-2px;margin:12px 0}.hero h1 em,.section-title h2 em,.contact h2 em{color:var(--pink);font-weight:500}.hero-copy>p{font-size:12px;line-height:1.7;max-width:360px;color:#604d57}.pink-button{display:inline-flex;align-items:center;justify-content:center;gap:15px;border:0;border-radius:30px;background:var(--pink);color:#fff;padding:12px 20px;font-size:10px;font-weight:800;cursor:pointer;box-shadow:0 5px 16px #f0007830;transition:.2s}.pink-button:hover{background:#c90065;transform:translateY(-2px)}.trust{display:flex;gap:23px;margin-top:23px;padding:10px 15px;background:#ffffffbf;border-radius:13px;width:max-content}.trust>div{display:flex;gap:8px;align-items:center}.trust>div>b{font-size:19px;color:var(--pink)}.trust strong,.trust small{display:block}.trust strong{font-size:10px;color:var(--pink)}.trust small{font-size:8px;color:#554650}.hero-card{position:absolute;right:4%;bottom:17px;width:225px;background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 8px 30px #54233a20}.hero-card-img{height:85px;background:url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=600&q=85') center/cover}.hero-card>div:last-child{padding:10px 14px 13px}.hero-card b{font:600 16px var(--serif)}.hero-card p{font-size:9px;color:var(--muted);margin:3px 0 9px}.hero-card a{display:inline-block;background:var(--pink);color:#fff;border-radius:20px;padding:8px 13px;font-size:8px;font-weight:800}
+.categories{display:grid;grid-template-columns:repeat(10,1fr);gap:10px;padding:17px 3% 20px;background:#fff}.categories button{border:0;background:none;cursor:pointer;text-align:center;min-width:0}.categories img{width:min(68px,7vw);aspect-ratio:1;object-fit:cover;border-radius:50%;display:block;margin:0 auto 6px;border:3px solid #fff0f5;transition:.2s}.categories button:hover img{transform:translateY(-4px);border-color:#ff9dc5}.categories b{font-size:9px;white-space:nowrap}
+.promos{display:grid;grid-template-columns:1.05fr 1fr 1fr;gap:7px;padding:0 1.7% 18px}.promo{height:112px;border-radius:9px;overflow:hidden;position:relative;background-size:cover;background-position:center;display:flex;align-items:center;padding:16px}.promo:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#fff3f1f0 0%,#fff0f1b0 55%,transparent)}.promo>div{position:relative;z-index:1}.promo small{font-size:8px;font-weight:800;color:var(--pink);letter-spacing:.7px}.promo h3{font:600 20px/1.1 var(--serif);margin:4px 0}.promo p{font-size:9px;margin:0 0 8px;color:#554650}.promo a{display:inline-block;padding:7px 14px;border-radius:18px;background:#301923;color:white;font-size:8px;font-weight:700}.promo-delivery{background-image:url('https://images.unsplash.com/photo-1607082349566-187342175e2f?auto=format&fit=crop&w=900&q=85')}.promo-delivery:before{background:linear-gradient(90deg,#ed1685f2,#f00078aa 60%,transparent)}.promo-delivery small,.promo-delivery h3,.promo-delivery p{color:#fff}.promo-delivery a{background:#311624}.promo-service{background-image:url('https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=900&q=85')}.promo-service:before{background:linear-gradient(90deg,#ffdce9f5,#ffdce9a0 60%,transparent)}
+.featured{padding:0 2.5% 22px}.section-title{display:flex;align-items:center;justify-content:space-between;margin:0 0 15px}.section-title h2{font:500 clamp(28px,3vw,37px) var(--serif);margin:0}.section-title p{font-size:10px;color:var(--muted);margin:3px 0}.all-link{border:1px solid var(--pink);color:var(--pink);border-radius:22px;padding:9px 15px;font-size:9px;font-weight:800}.filter-row{display:flex;justify-content:space-between;align-items:center;margin:0 0 10px}.filters{display:flex;gap:6px;flex-wrap:wrap}.filter{border:1px solid var(--line);background:#fff;border-radius:20px;padding:6px 12px;font-size:8px;cursor:pointer}.filter.active,.filter:hover{background:var(--pink);color:#fff;border-color:var(--pink)}#sort{border:1px solid var(--line);border-radius:15px;padding:6px 10px;font-size:8px;background:white}.product-grid{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:9px}.product{min-width:0;border:1px solid #f2e7eb;border-radius:10px;padding:5px;background:white;box-shadow:0 2px 10px #40162908}.product[hidden]{display:none}.product-img{height:125px;position:relative;overflow:hidden;border-radius:7px;background:#f9e9ef}.product-img img{width:100%;height:100%;object-fit:cover}.product-img>span{position:absolute;top:6px;left:6px;background:#ffffffde;padding:4px 6px;border-radius:10px;font-size:6px;font-weight:800;color:var(--pink)}.heart{position:absolute;top:5px;right:5px;width:22px;height:22px;border:0;border-radius:50%;background:#fff;color:#78636e;font-size:14px;cursor:pointer}.heart.selected{color:var(--pink)}.product h3{font:600 11px var(--serif);margin:7px 2px 2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.product p{font-size:8px;color:#8b7b83;margin:0 2px 5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.product>strong{display:block;font-size:9px;color:var(--pink);margin:0 2px 7px}.add{width:100%;border:0;border-radius:6px;background:var(--pink);color:#fff;padding:7px 3px;font-size:8px;font-weight:800;cursor:pointer}.add:hover{background:#bf005e}.catalog-note{font-size:8px;color:#907e87;margin:10px 2px 0}
+.brands{margin:0 2.5% 20px;padding:13px 16px;background:#fff2ed;border-radius:9px;display:flex;align-items:center;gap:25px}.brands h3{font:600 16px var(--serif);margin:0}.brands p{font-size:8px;color:var(--muted);margin:3px 0 0;max-width:200px}.brand-names{flex:1;display:flex;align-items:center;justify-content:space-between;gap:13px;flex-wrap:wrap}.brand-names b{font:700 clamp(11px,1.5vw,20px) var(--serif);letter-spacing:1px;color:#1f171b}.brand-names b:nth-child(6){font-family:var(--sans);font-style:italic;color:#ed174d}.brand-names b:last-child{font:700 8px var(--sans);letter-spacing:2px}
+.contact{padding:55px 7%;background:#fff8fb;display:grid;grid-template-columns:1fr 1fr;gap:8%;align-items:center}.contact h2{font:500 38px/1.1 var(--serif)}.contact p{font-size:11px;line-height:1.8;color:var(--muted)}.contact form{padding:22px;background:#fff;border:1px solid var(--line);display:grid;gap:10px}.contact form h3{font:600 22px var(--serif);margin:0}.contact input,.contact textarea{border:1px solid var(--line);padding:11px;font-size:10px;outline:0}.contact input:focus,.contact textarea:focus{border-color:var(--pink)}footer{background:#291923;color:#fff;text-align:center;padding:28px 15px}footer>b{font:600 12px var(--serif);letter-spacing:2px}footer p{font:italic 16px var(--serif);color:#ff9fc7}footer small{font-size:8px;color:#d4c0ca}
+.overlay{position:fixed;inset:0;background:#1a0c15a6;z-index:40;opacity:0;pointer-events:none;transition:.2s}.overlay.open{opacity:1;pointer-events:auto}.cart-panel{position:fixed;right:0;top:0;bottom:0;width:min(390px,92vw);background:white;z-index:41;padding:22px;transform:translateX(105%);transition:.25s;display:flex;flex-direction:column}.cart-panel.open{transform:translateX(0)}.cart-head{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding-bottom:12px}.cart-head h3{font:600 23px var(--serif);margin:0}.cart-head small{font:10px var(--sans);color:var(--muted)}.cart-head button{border:0;background:none;font-size:26px;cursor:pointer}.cart-items{flex:1;overflow:auto;padding:12px 0}.cart-items>p{font-size:11px;color:var(--muted)}.cart-line{padding:12px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:1fr auto;gap:8px;font-size:10px}.cart-line small{display:block;color:var(--muted);font-size:8px;margin-top:4px}.qty-controls{display:flex;align-items:center;gap:8px;margin-top:7px}.qty-controls button{width:22px;height:22px;border:1px solid var(--line);background:#fff;cursor:pointer}.remove{border:0!important;color:var(--pink);font-size:8px;width:auto!important}.cart-total{display:flex;justify-content:space-between;border-top:1px solid var(--line);padding:14px 0;font-size:12px}.cart-total b{color:var(--pink)}.delivery-note{font-size:8px;color:var(--muted)}.checkout{width:100%}.checkout:disabled{opacity:.45;cursor:not-allowed}
+@media(max-width:1050px){.product-grid{grid-template-columns:repeat(4,1fr)}.product-img{height:175px}.categories{grid-template-columns:repeat(5,1fr);row-gap:14px}.categories img{width:65px}}
+@media(max-width:700px){.announcement{justify-content:center}.announcement span:nth-child(2){display:none}.header{height:65px;padding:0 4%;gap:9px}.mobile-menu{display:block}.header nav{display:none;position:absolute;top:65px;left:0;right:0;background:#fff;padding:12px 6%;box-shadow:0 8px 20px #0001;flex-direction:column;gap:0}.header nav.open{display:flex}.header nav a{padding:12px 0;border-bottom:1px solid var(--line)}.brand{min-width:0}.brand b{font-size:10px}.search input{width:75px}.hero{height:420px}.hero-photo{background-position:58% center}.hero-copy{padding:35px 6%;max-width:85%}.hero h1{font-size:49px}.hero-card{width:155px;right:3%;bottom:12px}.hero-card-img{height:55px}.hero-card>div:last-child{padding:8px}.hero-card b{font-size:13px}.trust{gap:10px;padding:8px}.trust small{font-size:7px}.categories{grid-template-columns:repeat(5,1fr);padding:15px 2%;gap:12px 5px}.categories img{width:55px}.categories b{font-size:8px}.promos{grid-template-columns:1fr;padding:0 3% 15px}.promo{height:100px}.section-title{align-items:flex-start}.section-title h2{font-size:27px}.all-link{font-size:8px;padding:8px}.filter-row{align-items:flex-start;gap:8px}.filters{overflow-x:auto;flex-wrap:nowrap;max-width:82%;padding-bottom:5px}.filter{white-space:nowrap}.product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.product-img{height:180px}.product h3{font-size:12px}.product>strong{font-size:10px}.add{font-size:9px;padding:9px 3px}.brands{display:block}.brand-names{margin-top:14px;justify-content:flex-start}.brand-names b{font-size:15px}.contact{grid-template-columns:1fr;padding:38px 6%;gap:18px}.contact h2{font-size:32px}}
+\n</style><script>
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const menu=$("#mobileMenu"),nav=$("#mainNav");
+menu.addEventListener("click",()=>nav.classList.toggle("open"));
+nav.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>nav.classList.remove("open")));
+const products=$$(".product"),filterButtons=$$(".filter");
+let active="all",cart=[];
+const format=n=>new Intl.NumberFormat("fr-FR").format(n)+" FCFA";
+function filterProducts(){
+ const term=$("#search").value.trim().toLowerCase();
+ let count=0;
+ products.forEach(p=>{
+  const cat=active==="all"||p.dataset.category===active;
+  const match=(p.dataset.name+" "+p.dataset.search).toLowerCase().includes(term);
+  p.hidden=!(cat&&match);if(!p.hidden)count++;
+ });
+}
+function setFilter(value){
+ active=value;
+ filterButtons.forEach(b=>b.classList.toggle("active",b.dataset.filter===value));
+ filterProducts();
+}
+filterButtons.forEach(b=>b.addEventListener("click",()=>setFilter(b.dataset.filter)));
+$$(".categories button").forEach(b=>b.addEventListener("click",()=>{
+ const map={makeup:"beauty",skincare:"beauty",perfume:"beauty",clothes:"fashion",shoes:"fashion",wigs:"hair",bags:"fashion",accessories:"accessories",watches:"accessories",hair:"hair"};
+ setFilter(map[b.dataset.category]||"all");$("#products").scrollIntoView({behavior:"smooth"});
+}));
+$("#search").addEventListener("input",filterProducts);
+$("#sort").addEventListener("change",e=>{
+ const grid=$("#productGrid");
+ const sorted=[...products].sort((a,b)=>e.target.value==="price-up"?+a.dataset.price- +b.dataset.price:e.target.value==="price-down"?+b.dataset.price- +a.dataset.price:0);
+ sorted.forEach(p=>grid.appendChild(p));
+});
+$$(".heart").forEach(b=>b.addEventListener("click",()=>{b.classList.toggle("selected");b.textContent=b.classList.contains("selected")?"♥":"♡"}));
+const panel=$("#cartPanel"),overlay=$("#overlay");
+function openCart(){panel.classList.add("open");overlay.classList.add("open")}
+function closeCart(){panel.classList.remove("open");overlay.classList.remove("open")}
+$("#showCart").addEventListener("click",openCart);$("#closeCart").addEventListener("click",closeCart);overlay.addEventListener("click",closeCart);
+function renderCart(){
+ const qty=cart.reduce((s,x)=>s+x.qty,0),total=cart.reduce((s,x)=>s+x.price*x.qty,0);
+ $("#cartCount").textContent=qty;$("#cartQty").textContent="("+qty+")";$("#subtotal").textContent=format(total);$("#checkout").disabled=!cart.length;
+ const box=$("#cartItems");box.innerHTML="";
+ if(!cart.length){box.innerHTML="<p>Votre panier est vide.</p>";return}
+ cart.forEach((item,index)=>{
+  const line=document.createElement("div");line.className="cart-line";
+  const info=document.createElement("div");
+  const title=document.createElement("b");title.textContent=item.name;
+  const opt=document.createElement("small");opt.textContent=item.option+" · "+format(item.price);
+  const controls=document.createElement("div");controls.className="qty-controls";
+  const minus=document.createElement("button");minus.textContent="−";minus.addEventListener("click",()=>{item.qty--;if(item.qty<=0)cart.splice(index,1);renderCart()});
+  const amount=document.createElement("span");amount.textContent=item.qty;
+  const plus=document.createElement("button");plus.textContent="+";plus.addEventListener("click",()=>{if(item.qty<20)item.qty++;renderCart()});
+  const remove=document.createElement("button");remove.className="remove";remove.textContent="Retirer";remove.addEventListener("click",()=>{cart.splice(index,1);renderCart()});
+  controls.append(minus,amount,plus,remove);info.append(title,opt,controls);
+  const sum=document.createElement("b");sum.textContent=format(item.price*item.qty);
+  line.append(info,sum);box.append(line);
+ });
+}
+$$(".add").forEach(btn=>btn.addEventListener("click",()=>{
+ const card=btn.closest(".product"),options=btn.dataset.options.split("|"),label=options[0].split(":")[0];
+ const selected=prompt("Choisissez "+label+" :\n"+options.slice(1).map((x,i)=>(i+1)+". "+x).join("\n"),options[0].split(":")[1]);
+ if(selected===null)return;
+ const value=selected.trim();
+ if(!options.slice(1).includes(value)){alert("Option non reconnue. Veuillez choisir exactement une option proposée.");return}
+ const old=cart.find(x=>x.name===btn.dataset.name&&x.option===label+": "+value);
+ if(old)old.qty=Math.min(20,old.qty+1);else cart.push({name:btn.dataset.name,price:+btn.dataset.price,qty:1,option:label+": "+value});
+ renderCart();openCart();
+}));
+$("#checkout").addEventListener("click",()=>{
+ if(!cart.length)return;
+ const lines=cart.map(x=>"- "+x.name+" ("+x.option+") x"+x.qty+" : "+format(x.price*x.qty)).join("\n");
+ const total=cart.reduce((s,x)=>s+x.price*x.qty,0);
+ const msg="Bonjour Lerak Ytroh, je souhaite commander :\n"+lines+"\nSous-total : "+format(total)+"\nLivraison : à confirmer selon ma zone. Merci de confirmer la disponibilité et les modalités.";
+ window.open("https://wa.me/24176314177?text="+encodeURIComponent(msg),"_blank");
+});
+$("#contactForm").addEventListener("submit",e=>{
+ e.preventDefault();if(!e.currentTarget.reportValidity())return;
+ const msg="Bonjour Lerak Ytroh.\nNom : "+$("#clientName").value+"\nContact : "+$("#clientContact").value+"\nDemande : "+$("#clientMessage").value;
+ window.open("https://wa.me/24176314177?text="+encodeURIComponent(msg),"_blank");
+});
+$("#year").textContent=new Date().getFullYear();
+</script>
+</head>
+<body>
+<div class="announcement"><span>VOS ENVIES, NOTRE SÉLECTION</span><span>Achats en Chine & en France · Livraison au Gabon</span><a href="https://wa.me/24176314177">WhatsApp 076 31 41 77</a></div>
+<header class="header">
+ <a class="brand" href="#home"><span class="monogram">LY</span><span><b>LERAK YTROH</b><small>PERSONAL SHOPPER</small></span></a>
+ <button class="mobile-menu" id="mobileMenu" aria-label="Ouvrir le menu">☰</button>
+ <nav id="mainNav"><a href="#home">Accueil</a><a href="#categories">Catégories</a><a href="#products">Boutique</a><a href="#services">Nos services</a><a href="#contact">Contact</a></nav>
+ <div class="head-actions"><label class="search"><span>⌕</span><input id="search" placeholder="Rechercher..." aria-label="Rechercher"></label><button id="showCart" class="cart-trigger" aria-label="Ouvrir le panier">♧ <i id="cartCount">0</i></button></div>
+</header>
+<main>
+<section class="hero" id="home">
+ <div class="hero-photo"></div><div class="hero-copy"><span class="kicker">BEAUTÉ · MODE · LIFESTYLE</span><h1>Le shopping<br>qui vous <em>ressemble.</em></h1><p>Vos produits préférés, directement de Chine et de France, livrés au Gabon.</p><a class="pink-button" href="#products">Découvrir la boutique <b>→</b></a>
+ <div class="trust"><div><b>♡</b><span><strong>100%</strong><small>Produits sélectionnés</small></span></div><div><b>♧</b><span><strong>Livraison</strong><small>au Gabon</small></span></div><div><b>◎</b><span><strong>Service</strong><small>personnalisé</small></span></div></div></div>
+ <aside class="hero-card"><div class="hero-card-img"></div><div><b>Beauté de luxe</b><p>Maquillage · Soins · Parfums</p><a href="#categories">Voir la collection →</a></div></aside>
+</section>
+<section class="categories" id="categories">
+ <button data-category="makeup"><img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=220&q=80"><b>Maquillage</b></button>
+ <button data-category="skincare"><img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=220&q=80"><b>Soins visage</b></button>
+ <button data-category="perfume"><img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=220&q=80"><b>Parfums</b></button>
+ <button data-category="clothes"><img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=220&q=80"><b>Vêtements</b></button>
+ <button data-category="shoes"><img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=220&q=80"><b>Chaussures</b></button>
+ <button data-category="wigs"><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=220&q=80"><b>Perruques</b></button>
+ <button data-category="bags"><img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=220&q=80"><b>Sacs</b></button>
+ <button data-category="accessories"><img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=220&q=80"><b>Accessoires</b></button>
+ <button data-category="watches"><img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=220&q=80"><b>Montres & bijoux</b></button>
+ <button data-category="hair"><img src="https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=220&q=80"><b>Produits capillaires</b></button>
+</section>
+<section class="promos" id="services">
+ <article class="promo promo-travel"><div><small>ACHATS INTERNATIONAUX</small><h3>Chine & France</h3><p>Vos marques préférées, sans limites.</p><a href="#contact">En savoir plus →</a></div></article>
+ <article class="promo promo-delivery"><div><small>LIVRAISON AU GABON</small><h3>Rapide et sécurisée.</h3><p>Un accompagnement à chaque étape.</p><a href="#contact">Nos modalités →</a></div></article>
+ <article class="promo promo-service"><div><small>SERVICE PERSONNALISÉ</small><h3>Un accompagnement de A à Z.</h3><p>Votre recherche, notre priorité.</p><a href="https://wa.me/24176314177">Discuter sur WhatsApp →</a></div></article>
+</section>
+<section class="featured" id="products">
+ <div class="section-title"><div><h2>Nos <em>produits</em> phares</h2><p>Une sélection tendance pour sublimer votre style et votre beauté.</p></div><a href="#catalogue" class="all-link">Voir toute la boutique →</a></div>
+ <div class="filter-row" id="catalogue"><div class="filters"><button class="filter active" data-filter="all">Tout</button><button class="filter" data-filter="beauty">Beauté</button><button class="filter" data-filter="fashion">Mode</button><button class="filter" data-filter="hair">Cheveux</button><button class="filter" data-filter="accessories">Accessoires</button></div><select id="sort"><option value="featured">Sélection</option><option value="price-up">Prix croissant</option><option value="price-down">Prix décroissant</option></select></div>
+ <div class="product-grid" id="productGrid">
+  <article class="product" data-category="beauty" data-price="48000" data-name="Parfum YSL Libre" data-search="parfum ysl libre eau de parfum fragrance"><div class="product-img"><img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=600&q=85" alt="Parfum"><span>PARFUM</span><button class="heart">♡</button></div><h3>Parfum YSL Libre</h3><p>Eau de parfum 90 ml</p><strong>48 000 FCFA</strong><button class="add" data-name="Parfum YSL Libre" data-price="48000" data-options="Format:90 ml|50 ml|90 ml">Ajouter au panier</button></article>
+  <article class="product" data-category="beauty" data-price="35000" data-name="Routine skincare Glow" data-search="routine skincare soins visage serum"><div class="product-img"><img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=600&q=85" alt="Routine de soin"><span>SKINCARE</span><button class="heart">♡</button></div><h3>Routine skincare Glow</h3><p>4 produits</p><strong>35 000 FCFA</strong><button class="add" data-name="Routine skincare Glow" data-price="35000" data-options="Type:Routine complète|Peau sèche|Peau mixte|Peau grasse">Ajouter au panier</button></article>
+  <article class="product" data-category="fashion" data-price="42000" data-name="Sac à main tendance" data-search="sac à main handbag sac rose"><div class="product-img"><img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=85" alt="Sac à main"><span>SACS</span><button class="heart">♡</button></div><h3>Sac à main tendance</h3><p>Plusieurs coloris</p><strong>42 000 FCFA</strong><button class="add" data-name="Sac à main tendance" data-price="42000" data-options="Couleur:Rose|Rose|Noir|Beige|Marron">Ajouter au panier</button></article>
+  <article class="product" data-category="hair" data-price="95000" data-name="Perruque lace HD" data-search="perruque lace hd cheveux humain wig"><div class="product-img"><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=600&q=85" alt="Perruque"><span>HAIR</span><button class="heart">♡</button></div><h3>Perruque lace HD</h3><p>Cheveux humains</p><strong>95 000 FCFA</strong><button class="add" data-name="Perruque lace HD" data-price="95000" data-options="Longueur:18 pouces|12 pouces|14 pouces|16 pouces|18 pouces|20 pouces|22 pouces">Ajouter au panier</button></article>
+  <article class="product" data-category="fashion" data-price="38000" data-name="Baskets tendance" data-search="baskets chaussures sneakers nike shoes"><div class="product-img"><img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=600&q=85" alt="Chaussures"><span>SHOES</span><button class="heart">♡</button></div><h3>Baskets tendance</h3><p>Plusieurs modèles</p><strong>38 000 FCFA</strong><button class="add" data-name="Baskets tendance" data-price="38000" data-options="Pointure:38|36|37|38|39|40|41">Ajouter au panier</button></article>
+  <article class="product" data-category="beauty" data-price="52000" data-name="Kit maquillage complet" data-search="kit maquillage palette pinceaux makeup"><div class="product-img"><img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=600&q=85" alt="Kit maquillage"><span>MAKEUP</span><button class="heart">♡</button></div><h3>Kit maquillage complet</h3><p>15 pièces</p><strong>52 000 FCFA</strong><button class="add" data-name="Kit maquillage complet" data-price="52000" data-options="Teinte:Medium|Clair|Medium|Foncé">Ajouter au panier</button></article>
+  <article class="product" data-category="accessories" data-price="45000" data-name="Montre femme luxe" data-search="montre femme bracelet bijoux watch"><div class="product-img"><img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=600&q=85" alt="Montre"><span>BIJOUX</span><button class="heart">♡</button></div><h3>Montre femme luxe</h3><p>Différents modèles</p><strong>45 000 FCFA</strong><button class="add" data-name="Montre femme luxe" data-price="45000" data-options="Couleur:Or rose|Or rose|Or|Argent">Ajouter au panier</button></article>
+  <article class="product" data-category="accessories" data-price="28000" data-name="Lunettes de soleil" data-search="lunettes soleil sunglasses accessoires"><div class="product-img"><img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=600&q=85" alt="Lunettes"><span>ACCESSOIRES</span><button class="heart">♡</button></div><h3>Lunettes de soleil</h3><p>Plusieurs marques</p><strong>28 000 FCFA</strong><button class="add" data-name="Lunettes de soleil" data-price="28000" data-options="Couleur:Noir|Noir|Marron|Rose">Ajouter au panier</button></article>
+ </div><p class="catalog-note">Prix indicatifs en FCFA. Les références, disponibilités et variantes sont confirmées avant validation de la commande.</p>
+</section>
+<section class="brands"><div><h3>Nos marques</h3><p>Vos grandes marques préférées, disponibles sur commande.</p></div><div class="brand-names"><b>DIOR</b><b>CHANEL</b><b>YSL</b><b>GUCCI</b><b>ZARA</b><b>H&M</b><b>NIKE</b><b>adidas</b><b>MAC</b><b>FENTY BEAUTY</b></div></section>
+<section class="contact" id="contact"><div><span class="eyebrow">UNE QUESTION ?</span><h2>Votre prochaine envie<br><em>commence ici.</em></h2><p>Besoin d'un produit précis, d'un conseil ou d'une recherche personnalisée ? Écrivez-nous.</p><p><b>WhatsApp :</b> 076 31 41 77<br><b>Libreville, Gabon</b></p></div><form id="contactForm"><h3>Contactez-nous</h3><input id="clientName" required placeholder="Votre nom"><input id="clientContact" required placeholder="Votre numéro ou e-mail"><textarea id="clientMessage" required placeholder="Votre demande" rows="4"></textarea><button class="pink-button">Envoyer sur WhatsApp →</button></form></section>
+</main>
+<footer><b>LERAK YTROH · PERSONAL SHOPPER</b><p>Vous satisfaire, notre priorité.</p><small>© <span id="year"></span> Lerak Ytroh. Tous droits réservés.</small></footer>
+<div class="overlay" id="overlay"></div><aside class="cart-panel" id="cartPanel"><div class="cart-head"><h3>Mon panier <small id="cartQty">(0)</small></h3><button id="closeCart">×</button></div><div id="cartItems" class="cart-items"><p>Votre panier est vide.</p></div><div class="cart-total"><span>Sous-total</span><b id="subtotal">0 FCFA</b></div><p class="delivery-note">Livraison : frais communiqués après confirmation de votre zone.</p><button id="checkout" class="pink-button checkout" disabled>Commander sur WhatsApp →</button></aside>
+</body></html>

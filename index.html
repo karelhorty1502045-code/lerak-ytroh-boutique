@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f00078">
+<meta name="description" content="Lerak Ytroh Personal Shopper — beauté, mode et accessoires sélectionnés en Chine et en France, livrés au Gabon.">
+<title>Lerak Ytroh | Beauty, Fashion & Personal Shopper</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css"><script src="./script.js" defer></script>
+</head>
+<body>
+<div class="announcement"><span>VOS ENVIES, NOTRE SÉLECTION</span><span>Achats en Chine & en France · Livraison au Gabon</span><a href="https://wa.me/24176314177">WhatsApp 076 31 41 77</a></div>
+<header class="header">
+ <a class="brand" href="#home"><span class="monogram">LY</span><span><b>LERAK YTROH</b><small>PERSONAL SHOPPER</small></span></a>
+ <button class="mobile-menu" id="mobileMenu" aria-label="Ouvrir le menu">☰</button>
+ <nav id="mainNav"><a href="#home">Accueil</a><a href="#categories">Catégories</a><a href="#products">Boutique</a><a href="#services">Nos services</a><a href="#contact">Contact</a></nav>
+ <div class="head-actions"><label class="search"><span>⌕</span><input id="search" placeholder="Rechercher..." aria-label="Rechercher"></label><button id="showCart" class="cart-trigger" aria-label="Ouvrir le panier">♧ <i id="cartCount">0</i></button></div>
+</header>
+<main>
+<section class="hero" id="home">
+ <div class="hero-photo"></div><div class="hero-copy"><span class="kicker">BEAUTÉ · MODE · LIFESTYLE</span><h1>Le shopping<br>qui vous <em>ressemble.</em></h1><p>Vos produits préférés, directement de Chine et de France, livrés au Gabon.</p><a class="pink-button" href="#products">Découvrir la boutique <b>→</b></a>
+ <div class="trust"><div><b>♡</b><span><strong>100%</strong><small>Produits sélectionnés</small></span></div><div><b>♧</b><span><strong>Livraison</strong><small>au Gabon</small></span></div><div><b>◎</b><span><strong>Service</strong><small>personnalisé</small></span></div></div></div>
+ <aside class="hero-card"><div class="hero-card-img"></div><div><b>Beauté de luxe</b><p>Maquillage · Soins · Parfums</p><a href="#categories">Voir la collection →</a></div></aside>
+</section>
+<section class="categories" id="categories">
+ <button data-category="makeup"><img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=220&q=80"><b>Maquillage</b></button>
+ <button data-category="skincare"><img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=220&q=80"><b>Soins visage</b></button>
+ <button data-category="perfume"><img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=220&q=80"><b>Parfums</b></button>
+ <button data-category="clothes"><img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=220&q=80"><b>Vêtements</b></button>
+ <button data-category="shoes"><img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=220&q=80"><b>Chaussures</b></button>
+ <button data-category="wigs"><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=220&q=80"><b>Perruques</b></button>
+ <button data-category="bags"><img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=220&q=80"><b>Sacs</b></button>
+ <button data-category="accessories"><img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=220&q=80"><b>Accessoires</b></button>
+ <button data-category="watches"><img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=220&q=80"><b>Montres & bijoux</b></button>
+ <button data-category="hair"><img src="https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=220&q=80"><b>Produits capillaires</b></button>
+</section>
+<section class="promos" id="services">
+ <article class="promo promo-travel"><div><small>ACHATS INTERNATIONAUX</small><h3>Chine & France</h3><p>Vos marques préférées, sans limites.</p><a href="#contact">En savoir plus →</a></div></article>
+ <article class="promo promo-delivery"><div><small>LIVRAISON AU GABON</small><h3>Rapide et sécurisée.</h3><p>Un accompagnement à chaque étape.</p><a href="#contact">Nos modalités →</a></div></article>
+ <article class="promo promo-service"><div><small>SERVICE PERSONNALISÉ</small><h3>Un accompagnement de A à Z.</h3><p>Votre recherche, notre priorité.</p><a href="https://wa.me/24176314177">Discuter sur WhatsApp →</a></div></article>
+</section>
+<section class="featured" id="products">
+ <div class="section-title"><div><h2>Nos <em>produits</em> phares</h2><p>Une sélection tendance pour sublimer votre style et votre beauté.</p></div><a href="#catalogue" class="all-link">Voir toute la boutique →</a></div>
+ <div class="filter-row" id="catalogue"><div class="filters"><button class="filter active" data-filter="all">Tout</button><button class="filter" data-filter="beauty">Beauté</button><button class="filter" data-filter="fashion">Mode</button><button class="filter" data-filter="hair">Cheveux</button><button class="filter" data-filter="accessories">Accessoires</button></div><select id="sort"><option value="featured">Sélection</option><option value="price-up">Prix croissant</option><option value="price-down">Prix décroissant</option></select></div>
+ <div class="product-grid" id="productGrid">
+  <article class="product" data-category="beauty" data-price="48000" data-name="Parfum YSL Libre" data-search="parfum ysl libre eau de parfum fragrance"><div class="product-img"><img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=600&q=85" alt="Parfum"><span>PARFUM</span><button class="heart">♡</button></div><h3>Parfum YSL Libre</h3><p>Eau de parfum 90 ml</p><strong>48 000 FCFA</strong><button class="add" data-name="Parfum YSL Libre" data-price="48000" data-options="Format:90 ml|50 ml|90 ml">Ajouter au panier</button></article>
+  <article class="product" data-category="beauty" data-price="35000" data-name="Routine skincare Glow" data-search="routine skincare soins visage serum"><div class="product-img"><img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=600&q=85" alt="Routine de soin"><span>SKINCARE</span><button class="heart">♡</button></div><h3>Routine skincare Glow</h3><p>4 produits</p><strong>35 000 FCFA</strong><button class="add" data-name="Routine skincare Glow" data-price="35000" data-options="Type:Routine complète|Peau sèche|Peau mixte|Peau grasse">Ajouter au panier</button></article>
+  <article class="product" data-category="fashion" data-price="42000" data-name="Sac à main tendance" data-search="sac à main handbag sac rose"><div class="product-img"><img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=85" alt="Sac à main"><span>SACS</span><button class="heart">♡</button></div><h3>Sac à main tendance</h3><p>Plusieurs coloris</p><strong>42 000 FCFA</strong><button class="add" data-name="Sac à main tendance" data-price="42000" data-options="Couleur:Rose|Rose|Noir|Beige|Marron">Ajouter au panier</button></article>
+  <article class="product" data-category="hair" data-price="95000" data-name="Perruque lace HD" data-search="perruque lace hd cheveux humain wig"><div class="product-img"><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=600&q=85" alt="Perruque"><span>HAIR</span><button class="heart">♡</button></div><h3>Perruque lace HD</h3><p>Cheveux humains</p><strong>95 000 FCFA</strong><button class="add" data-name="Perruque lace HD" data-price="95000" data-options="Longueur:18 pouces|12 pouces|14 pouces|16 pouces|18 pouces|20 pouces|22 pouces">Ajouter au panier</button></article>
+  <article class="product" data-category="fashion" data-price="38000" data-name="Baskets tendance" data-search="baskets chaussures sneakers nike shoes"><div class="product-img"><img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=600&q=85" alt="Chaussures"><span>SHOES</span><button class="heart">♡</button></div><h3>Baskets tendance</h3><p>Plusieurs modèles</p><strong>38 000 FCFA</strong><button class="add" data-name="Baskets tendance" data-price="38000" data-options="Pointure:38|36|37|38|39|40|41">Ajouter au panier</button></article>
+  <article class="product" data-category="beauty" data-price="52000" data-name="Kit maquillage complet" data-search="kit maquillage palette pinceaux makeup"><div class="product-img"><img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=600&q=85" alt="Kit maquillage"><span>MAKEUP</span><button class="heart">♡</button></div><h3>Kit maquillage complet</h3><p>15 pièces</p><strong>52 000 FCFA</strong><button class="add" data-name="Kit maquillage complet" data-price="52000" data-options="Teinte:Medium|Clair|Medium|Foncé">Ajouter au panier</button></article>
+  <article class="product" data-category="accessories" data-price="45000" data-name="Montre femme luxe" data-search="montre femme bracelet bijoux watch"><div class="product-img"><img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=600&q=85" alt="Montre"><span>BIJOUX</span><button class="heart">♡</button></div><h3>Montre femme luxe</h3><p>Différents modèles</p><strong>45 000 FCFA</strong><button class="add" data-name="Montre femme luxe" data-price="45000" data-options="Couleur:Or rose|Or rose|Or|Argent">Ajouter au panier</button></article>
+  <article class="product" data-category="accessories" data-price="28000" data-name="Lunettes de soleil" data-search="lunettes soleil sunglasses accessoires"><div class="product-img"><img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=600&q=85" alt="Lunettes"><span>ACCESSOIRES</span><button class="heart">♡</button></div><h3>Lunettes de soleil</h3><p>Plusieurs marques</p><strong>28 000 FCFA</strong><button class="add" data-name="Lunettes de soleil" data-price="28000" data-options="Couleur:Noir|Noir|Marron|Rose">Ajouter au panier</button></article>
+ </div><p class="catalog-note">Prix indicatifs en FCFA. Les références, disponibilités et variantes sont confirmées avant validation de la commande.</p>
+</section>
+<section class="brands"><div><h3>Nos marques</h3><p>Vos grandes marques préférées, disponibles sur commande.</p></div><div class="brand-names"><b>DIOR</b><b>CHANEL</b><b>YSL</b><b>GUCCI</b><b>ZARA</b><b>H&M</b><b>NIKE</b><b>adidas</b><b>MAC</b><b>FENTY BEAUTY</b></div></section>
+<section class="contact" id="contact"><div><span class="eyebrow">UNE QUESTION ?</span><h2>Votre prochaine envie<br><em>commence ici.</em></h2><p>Besoin d'un produit précis, d'un conseil ou d'une recherche personnalisée ? Écrivez-nous.</p><p><b>WhatsApp :</b> 076 31 41 77<br><b>Libreville, Gabon</b></p></div><form id="contactForm"><h3>Contactez-nous</h3><input id="clientName" required placeholder="Votre nom"><input id="clientContact" required placeholder="Votre numéro ou e-mail"><textarea id="clientMessage" required placeholder="Votre demande" rows="4"></textarea><button class="pink-button">Envoyer sur WhatsApp →</button></form></section>
+</main>
+<footer><b>LERAK YTROH · PERSONAL SHOPPER</b><p>Vous satisfaire, notre priorité.</p><small>© <span id="year"></span> Lerak Ytroh. Tous droits réservés.</small></footer>
+<div class="overlay" id="overlay"></div><aside class="cart-panel" id="cartPanel"><div class="cart-head"><h3>Mon panier <small id="cartQty">(0)</small></h3><button id="closeCart">×</button></div><div id="cartItems" class="cart-items"><p>Votre panier est vide.</p></div><div class="cart-total"><span>Sous-total</span><b id="subtotal">0 FCFA</b></div><p class="delivery-note">Livraison : frais communiqués après confirmation de votre zone.</p><button id="checkout" class="pink-button checkout" disabled>Commander sur WhatsApp →</button></aside>
+</body></html>
